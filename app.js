@@ -3,9 +3,9 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+    res.send('Hello, World!');
 });
 
 app.listen(port, () => {
-  console.log(`Aplikacja dzia≈Ça na porcie ${port}`);
+    console.log(`Aplikacja dzia≥a na porcie ${port}`);
 });
